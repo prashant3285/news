@@ -6,12 +6,6 @@ class LoadingContainer extends StatelessWidget {
       ListTile(
         title: buildContainer(),
         subtitle: buildContainer(),
-        trailing: Column(
-          children: <Widget>[
-            Icon(Icons.comment),
-            Text('  '),
-          ],
-        ),
       ),
       Divider(
         height: 8,
